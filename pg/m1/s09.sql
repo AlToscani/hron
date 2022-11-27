@@ -19,7 +19,7 @@ limit 3;
 select first_name, last_name, salary
 from employee
 where first_name like 'A%'
-order by 3 desc
+order by 3 desc  --terza colonna
 limit 5;
 
 -- explicit column in order by, "asc" is rarely used

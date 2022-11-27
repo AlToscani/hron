@@ -1,7 +1,7 @@
 -- left/right outer join - from "many" perspective
 
 -- Kimberely is an employee
-select employee_id, first_name, last_name
+select employee_id, first_name, last_name, department_id 
 from employee
 where last_name like 'Gr%';
 

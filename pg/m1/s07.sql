@@ -97,7 +97,7 @@ where name in ('Europe', 'asia');
 -- beware of null
 select *
 from region
-where region_id not in (2, 3, null);
+where region_id not in (2, 3, null );
 
 select *
 from region
