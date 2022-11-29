@@ -136,6 +136,33 @@ where e.hired > (
 )
 order by hired;
 
+select *
+from "location" l 
+where city in ('Oxford', 'Utrecht');
+
+begin;
+insert into service (name, location_id) values ('Trasporti', (
+	select location_id
+	from "location"
+	where city = 'Utrecht')
+	);
+select * from service s;
+rollback;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

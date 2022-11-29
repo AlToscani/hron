@@ -7,7 +7,7 @@ from service;
 -- updating a single row (if found)
 update service
 set name = 'K&R Associates', location_id = 1500
-where service_id = 12;
+where service_id = 33;
 
 -- updating all rows - by mistake?
 -- ??? committing ???
